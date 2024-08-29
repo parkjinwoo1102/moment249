@@ -1,0 +1,164 @@
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+em,
+img,
+small,
+strong,
+b,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tr,
+th,
+td,
+article,
+aside,
+footer,
+header,
+nav,
+section,
+summary,
+video {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul,
+ol {
+    list-style: none;
+}
+
+html {
+    font-size: 16px;
+    /* rem의 기준크기!!!*/
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #333;
+
+}
+
+#wrap {
+    min-width: 1320px;
+}
+
+#header {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.inner_header {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color:
+}
+
+.logo {
+    margin: 20px;
+}
+
+.gnb {
+    display: flex;
+    margin: 0 40px;
+
+}
+
+.gnb li a {
+    display: block;
+    font-weight: bold;
+    margin: 26px;
+}
+
+.link {
+    display: flex;
+}
+
+.link li {
+    margin: 20px;
+
+}
+#banner{
+    background: url(../image/sub1/beautiful-luxury-outdoor-swimming-pool-hotel-resort.jpg)no-repeat center;
+    height: 774px;
+}
+.visual_text {
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+    top: 450px;
+    left: 100px;
+}
+.visual_text strong {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.visual_text p {
+    margin-left: 30px 0;
+    font-size: 20px;
+    line-height: 50px;
+    color: #fff;
+}
+#section1 {
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+#section1 h2 {
+    text-align: center;
+    padding: 150px;
+    color: #05ade9;
+    font-size: 40px;
+    border-bottom: 1px solid #ddd;
+}
+.section1_logo{
+    position: relative;
+    bottom: 190px;
+    right: 200px;
+}
+.Preview{
+    background-color: #F3F1F1;
+    width: 268px;
+     border: 1px solid #F3F1F1;
+     padding: 20px 20px 20px 0px;
+     box-sizing: border-box;
+     border-radius: 60px;
+     color: #666666;
+     position: relative;
+     bottom: 0;
+    left: 1050px;
+}
