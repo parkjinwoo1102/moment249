@@ -125,9 +125,7 @@ body {
 .visual_text {
     width: 1320px;
     margin: 0 auto;
-    position: absolute;
-    right: 550px;
-    top: 500px;
+    padding:500px;
     overflow: hidden;
 }
 
